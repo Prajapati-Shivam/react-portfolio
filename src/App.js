@@ -10,11 +10,11 @@ function App() {
   const [darkMode, setDarkMode] = useState(false);
   return (
     <div className={darkMode ? "dark" : "" }>
-      <div className='min-h-screen px-10 pb-10 lg:px-28 dark:bg-gray-900'>
+      <div className='min-h-screen relative px-10 sm:px-20 lg:px-40 pb-10 dark:bg-gray-900'>
         <Navbar mode={() => setDarkMode(!darkMode)} />
         <Main />
-        <Projects />
         <Skills />
+        <Projects />
         <Contact />
       </div>
     </div>

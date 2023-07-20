@@ -1,24 +1,29 @@
-import React from 'react';
-import { Linkedin, GitHub, Mail } from 'react-feather';
-import image from '../assets/dp.png'
+import React from "react";
+import resume from "../assets/resume.pdf";
+
 export default function Main() {
   return (
-    <>
-      <div className='text-center p-10'>
-        <h2 className='text-4xl py-2 text-teal-600 md:text-5xl'>Shivam Prajapati</h2>
-        <h3 className='text-2xl py-2 md:text-3xl dark:text-gray-200'>Frontend Developer</h3>
-        <p className='text-md py-4 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400'>
-          Motivated student seeking internship in front end development to gain hands-on experience and looking forward to learn more.
+    <div className="h-screen flex flex-col justify-center">
+      <div className="max-w-xl">
+        <h2 className="text-5xl font-extrabold pb-4 text-teal-600 md:text-6xl">
+          Shivam Prajapati
+        </h2>
+        <h3 className="text-3xl font-bold py-2 md:text-4xl dark:text-gray-200">
+          Web Developer
+        </h3>
+        <p className="text-md py-4 leading-6 text-gray-800 md:text-xl dark:text-gray-400">
+          I am a web developer with a passion for learning new things. I am a
+          self-taught developer and I love to build things that live on the
+          internet.
         </p>
+        <a
+          className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-3 py-2 rounded-md"
+          href={resume}
+          download={true}
+        >
+          Resume
+        </a>
       </div>
-      <div className='flex justify-center gap-16 text-gray-600 py-3 dark:text-white'>
-        <a href='https://www.linkedin.com/in/shivam-prajapati-78590b225/' target="_blank" rel="noreferrer"><Linkedin className='cursor-pointer' /></a>
-        <a href='https://github.com/Prajapati-Shivam' target="_blank" rel="noreferrer"><GitHub className='cursor-pointer' /></a>
-        <a href='mailto:prajapatishivam11203@gmail.com' target="_blank" rel="noreferrer"><Mail className='cursor-pointer' /></a>
-      </div>
-      <div className='mx-auto bg-gradient-to-b from-teal-500 rounded-full overflow-hidden w-72 h-72 md:w-80 md:h-80 mt-20'>
-        <img src={image} alt="" />
-      </div>
-    </>
-  )
+    </div>
+  );
 }
