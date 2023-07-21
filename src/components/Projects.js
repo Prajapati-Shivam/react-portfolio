@@ -2,7 +2,7 @@ import React from "react";
 import Project from "./Project";
 import cloudbook from "../assets/cloudbook.png";
 import imagery from "../assets/imagery.png";
-// import stock from "../assets/stock.png";
+import stock from "../assets/stock.png";
 import horizon from "../assets/horizon.png";
 import dailynews from "../assets/dailynews.png";
 import weather from "../assets/weather.png";
@@ -35,6 +35,13 @@ const projects = [
     code: "https://github.com/Prajapati-Shivam/DailyNews",
     demo: "https://daily-news-shivam.netlify.app/",
     desc: "React app for daily news build with newsdata.io API."
+  },
+  {
+    title: "Inventory Management System",
+    image: stock,
+    code: "https://github.com/Prajapati-Shivam/Inventory-Management-System",
+    demo: "https://stock-management-system.netlify.app",
+    desc: "Inventory Management System is a simple web application built using Nextjs and MongoDB. Users can easily create and delete products and update their quantity and price."
   },
   {
     title: "Weather App",
