@@ -32,11 +32,11 @@ export default function Contact() {
         <p className="text-3xl md:text-4xl mt-20 font-bold pb-2 border-b-2 border-gray-500 dark:text-gray-200">
           Contact
         </p>
-        <div className="flex justify-between items-center">
-          <p className="text-lg md:text-xl my-5 dark:text-gray-200">
+        <div className="flex justify-between items-start flex-col gap-2 sm:flex-row sm:items-center my-4">
+          <p className="text-lg md:text-xl dark:text-gray-200">
             Submit the form below to get in touch with me
           </p>
-          <div className="flex gap-x-4 text-gray-600 py-3 dark:text-white">
+          <div className="flex gap-x-4 text-gray-600 dark:text-white">
             <a
               href="https://www.linkedin.com/in/shivam-prajapati-78590b225/"
               target="_blank"
@@ -60,7 +60,10 @@ export default function Contact() {
             className="flex flex-col w-full"
           >
             <div className="mb-4">
-              <label htmlFor="name" className="text-base md:text-lg dark:text-gray-200">
+              <label
+                htmlFor="name"
+                className="text-base md:text-lg dark:text-gray-200"
+              >
                 Your name
               </label>
               <input
@@ -72,7 +75,10 @@ export default function Contact() {
               />
             </div>
             <div className="mb-4">
-              <label htmlFor="name" className="text-base md:text-lg dark:text-gray-200">
+              <label
+                htmlFor="name"
+                className="text-base md:text-lg dark:text-gray-200"
+              >
                 Email
               </label>
               <input
@@ -84,7 +90,10 @@ export default function Contact() {
               />
             </div>
             <div className="mb-4">
-              <label htmlFor="name" className="text-base md:text-lg dark:text-gray-200">
+              <label
+                htmlFor="name"
+                className="text-base md:text-lg dark:text-gray-200"
+              >
                 Message
               </label>
               <textarea
