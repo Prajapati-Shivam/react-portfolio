@@ -1,6 +1,5 @@
 import React from "react";
 import resume from "../assets/resume.pdf";
-import design from "../assets/Untitled design.png";
 
 export default function Main() {
   return (
