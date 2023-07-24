@@ -1,9 +1,10 @@
 import React from "react";
 import resume from "../assets/resume.pdf";
+import design from "../assets/Untitled design.png";
 
 export default function Main() {
   return (
-    <div className="h-screen flex flex-col justify-center">
+    <div className="h-screen flex flex-col justify-center" id="main">
       <div className="max-w-xl">
         <h2 className="text-5xl font-extrabold pb-4 text-teal-600 md:text-6xl">
           Shivam Prajapati

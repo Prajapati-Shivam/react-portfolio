@@ -10,7 +10,7 @@ export default function Project(props) {
   return (
     <div className="main relative rounded-md shadow-lg bg-teal-100 dark:bg-slate-800 p-6">
       <img className="rounded-md" src={image} alt={title} />
-      <h3 className="text-center font-semibold text-lg py-3 text-gray-900 dark:text-gray-200">
+      <h3 className="text-center title font-semibold text-lg my-3 text-gray-900 dark:text-gray-200">
         {title}
       </h3>
       <p className="desc text-md text-gray-800 dark:text-gray-400">{desc}</p>
@@ -35,7 +35,9 @@ export default function Project(props) {
             </button>
           </div>
           <div className="flex flex-col">
-            <p className="text-md py-6 text-gray-800 dark:text-gray-400">{desc}</p>
+            <p className="text-md py-6 text-gray-800 dark:text-gray-400">
+              {desc}
+            </p>
             <img className="rounded-md" src={image} alt={title} />
             <div className="mt-6 flex gap-x-3 items-center">
               <a
