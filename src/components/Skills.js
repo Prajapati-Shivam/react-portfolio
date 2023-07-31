@@ -9,6 +9,7 @@ import next from "../assets/next.svg";
 import mongodb from "../assets/mongodb.svg";
 import express from "../assets/express.svg";
 import nodejs from "../assets/nodejs.svg";
+import "animate.css";
 
 const skills = [
   {

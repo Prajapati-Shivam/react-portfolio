@@ -100,7 +100,7 @@ export default function Contact() {
                 required
                 name="message"
                 placeholder="Enter your message here..."
-                rows="6"
+                rows="4"
                 className="w-full p-2 bg-transparent border-2 border-gray-500 rounded-md text-gray-800 dark:text-white focus:outline-none"
               ></textarea>
             </div>
