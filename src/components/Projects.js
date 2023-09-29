@@ -33,7 +33,7 @@ const projects = [
     title: "DailyNews",
     image: dailynews,
     code: "https://github.com/Prajapati-Shivam/DailyNews",
-    demo: "https://daily-news-shivam.netlify.app/",
+    demo: "https://react-daily-news.netlify.app/",
     desc: "React app for daily news build with newsdata.io API.",
   },
   {

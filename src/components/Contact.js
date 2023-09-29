@@ -25,6 +25,7 @@ export default function Contact() {
         }
       );
     form.current.reset();
+    alert("Your message has been sent");
   };
   return (
     <div id="contact" className="max-h-fit mt-12">
@@ -69,7 +70,7 @@ export default function Contact() {
               <input
                 required
                 type="text"
-                name="name"
+                name="user_name"
                 placeholder="John Doe"
                 className="w-full p-2 bg-transparent border-2 border-gray-500 rounded-md text-gray-800 dark:text-white focus:outline-none"
               />
@@ -84,7 +85,7 @@ export default function Contact() {
               <input
                 required
                 type="email"
-                name="email"
+                name="user_email"
                 placeholder="johndoe@mail.com"
                 className="w-full p-2 bg-transparent border-2 border-gray-500 rounded-md text-gray-800 dark:text-white focus:outline-none"
               />
