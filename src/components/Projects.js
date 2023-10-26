@@ -37,11 +37,11 @@ const projects = [
     desc: "React app for daily news build with newsdata.io API.",
   },
   {
-    title: "Inventory Management System",
+    title: "Stockwise",
     image: stockwise,
     code: "https://github.com/Prajapati-Shivam/Stockwise",
     demo: "https://stockwise.vercel.app",
-    desc: "Inventory Management System is a simple web application built using Nextjs and MongoDB. Users can easily create and delete products and update their quantity and price.",
+    desc: "Stockwise is a simple web application built using Nextjs and MongoDB. Users can easily create and delete products and update their quantity and price.",
   },
   {
     title: "Weather App",
