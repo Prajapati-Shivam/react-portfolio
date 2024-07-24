@@ -9,9 +9,23 @@
   scroll-behavior: smooth;
 }
 
+/* main.css */
+body {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.dark body {
+  background-color: #1a202c;
+  /* dark background */
+  color: #a0aec0;
+  /* light text color */
+}
+
+
 .desc {
   display: -webkit-box;
   -webkit-line-clamp: 2;
+  line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
@@ -19,6 +33,7 @@
 .title {
   display: -webkit-box;
   -webkit-line-clamp: 1;
+  line-clamp: 1;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
