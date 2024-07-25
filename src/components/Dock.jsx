@@ -54,7 +54,7 @@ const Dock = ({ mode }) => {
           <a
             key={index}
             href={item.link}
-            className='p-3 rounded-full hover:bg-slate-300 dark:hover:bg-slate-800 hover:mx-2 transition-all duration-300 ease-in-out'
+            className='p-3 rounded-full hover:bg-slate-300 dark:hover:bg-slate-800 sm:hover:mx-2 transition-all duration-300 ease-in-out'
             title={item.name}
           >
             <item.icon size={16} />

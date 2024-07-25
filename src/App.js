@@ -18,7 +18,7 @@ function App() {
   }, [darkMode]);
 
   return (
-    <div className='min-h-screen relative max-w-3xl mx-auto py-4 sm:py-8 px-6 font-sans antialiased'>
+    <div className='min-h-screen relative max-w-3xl mb-20 mx-auto py-4 sm:py-8 px-6 font-sans antialiased'>
       <Main />
       <Skills />
       <Projects />

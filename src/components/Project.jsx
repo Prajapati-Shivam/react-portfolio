@@ -6,7 +6,7 @@ export default function Project(props) {
   return (
     <div className='main relative rounded-md shadow-lg bg-teal-100 dark:bg-slate-800 p-6'>
       <img
-        className='rounded-md'
+        className='rounded-md border border-gray-200 dark:border-gray-700'
         src={`/assets/projects/${image}.png`}
         alt={title}
       />

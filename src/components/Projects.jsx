@@ -13,7 +13,7 @@ const projects = [
     title: 'Thoughts',
     image: 'thoughts',
     code: 'https://github.com/Prajapati-Shivam/blog-app',
-    demo: 'https://github.com/Prajapati-Shivam/blog-app',
+    demo: 'https://nextjs-thoughts.vercel.app/',
     desc: 'Thoughts is a dynamic platform for aspiring writers, curious readers, and enthusiastic learners to create, explore, and grow by sharing ideas and insights.',
   },
   {
@@ -38,26 +38,11 @@ const projects = [
     desc: 'Imagery is a dall-e clone to generate AI images built with mern stack',
   },
   {
-    title: 'Horizon',
-    image: 'horizon',
-    code: 'https://github.com/Prajapati-Shivam/Horizon',
-    demo: 'https://prajapati-shivam.github.io/Horizon/',
-    desc: 'Simple E-commerce website built with html, css and javascript.',
-  },
-  {
     title: 'DailyNews',
     image: 'dailynews',
     code: 'https://github.com/Prajapati-Shivam/DailyNews',
     demo: 'https://react-daily-news.netlify.app/',
     desc: 'React app for daily news build with newsdata.io API.',
-  },
-
-  {
-    title: 'Weather App',
-    image: 'weather',
-    code: 'https://github.com/Prajapati-Shivam/Weather-App',
-    demo: 'https://prajapati-shivam.github.io/Weather-App/',
-    desc: 'Weather app made with help of openweathermap API to get the weather details of different places.',
   },
 ];
 export default function Projects() {

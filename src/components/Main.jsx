@@ -1,13 +1,14 @@
 import React from 'react';
 import 'animate.css';
-
+import '../main.css';
 export default function Main() {
   return (
     <div className='h-screen flex flex-col justify-center' id='main'>
       <div className='flex flex-col gap-4 text-center sm:text-start sm:flex-row items-center justify-between'>
         <div>
           <h2 className='animate__animated animate__fadeInUp text-5xl font-extrabold pb-4 text-teal-600 md:text-6xl'>
-            Hi, I'm Shivam 👋
+            Hi, I'm Shivam
+            <span className='wave'>👋</span>
           </h2>
           <h3 className='animate__animated animate__fadeInUp text-3xl font-bold py-2 md:text-4xl dark:text-gray-200'>
             Web Developer
@@ -23,7 +24,7 @@ export default function Main() {
         internet.
       </p>
       <a
-        className='mx-auto sm:mx-0 bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-3 py-2 rounded-md font-bold max-w-fit'
+        className='mx-auto sm:mx-0 bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-3 py-2 rounded-md font-bold max-w-fit hover:scale-105 transition duration-200 ease-in-out'
         href={'/assets/Shivam_Prajapati_Web_Development.pdf'}
         download={true}
       >

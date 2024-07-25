@@ -66,24 +66,18 @@ export default function Skills() {
         {skills.map((skill, index) => (
           <div
             key={index}
-            className='py-4 shadow-lg bg-teal-100 dark:bg-gray-800 flex flex-col rounded-md border transition duration-300 ease-in-out dark:border-gray-700'
+            className='p-4 shadow-lg bg-teal-100 dark:bg-gray-800 flex flex-col rounded-md border transition duration-300 ease-in-out dark:border-gray-700 hover:scale-105'
           >
-            <div className='flex justify-between items-center mb-4'>
+            <div className='flex justify-between items-center'>
               <img
                 src={`/assets/skills/${skill.image}.svg`}
-                className='w-12 ml-4'
+                className='w-12'
                 alt='Skill'
               />
               <h4 className='text-lg md:text-xl font-semibold mx-auto dark:text-gray-200'>
                 {skill.name}
               </h4>
             </div>
-            <p
-              className='desc text-sm px-4 text-gray-700 dark:text-gray-300'
-              title={skill.desc}
-            >
-              {skill.desc}
-            </p>
           </div>
         ))}
       </div>
