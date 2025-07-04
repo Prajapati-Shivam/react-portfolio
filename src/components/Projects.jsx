@@ -3,12 +3,26 @@ import Project from './Project';
 
 const projects = [
   {
-    title: 'Formable',
-    image: 'formable',
-    code: 'https://github.com/Prajapati-Shivam/form-builder',
-    demo: 'https://formable-ai.vercel.app',
-    desc: "Formable is a web application designed to simplify online forms' creation, management, and response collection",
+    title: 'ReviewLens',
+    image: 'reviewlens',
+    code: 'https://github.com/Prajapati-Shivam/git-review',
+    demo: 'https://git-review.vercel.app/',
+    desc: 'ReviewLens is an AI-powered code review tool that integrates seamlessly with public GitHub repositories',
   },
+  {
+    title: 'FinWise',
+    image: 'finwise',
+    code: 'https://github.com/Prajapati-Shivam/Fin-Wise',
+    demo: 'https://fin-wise-web.vercel.app/',
+    desc: 'FinWise is modern web application to track daily expenses, analyze spending patterns through interactive charts, and receive AI-powered financial advice based on their spending habits.',
+  },
+  // {
+  //   title: 'Formable',
+  //   image: 'formable',
+  //   code: 'https://github.com/Prajapati-Shivam/form-builder',
+  //   demo: 'https://formable-ai.vercel.app',
+  //   desc: "Formable is a web application designed to simplify online forms' creation, management, and response collection",
+  // },
   {
     title: 'Thoughts',
     image: 'thoughts',
@@ -30,13 +44,13 @@ const projects = [
     demo: 'https://cloudbook-note-app.vercel.app/',
     desc: 'CloudBook is a simple note-taking application built using MongoDB and Express. With CloudBook, users can easily create, update, and delete notes.',
   },
-  {
-    title: 'Imagery',
-    image: 'imagery',
-    code: 'https://github.com/Prajapati-Shivam/dall-e-clone',
-    demo: 'https://imagery-dall-e.vercel.app/',
-    desc: 'Imagery is a dall-e clone to generate AI images built with mern stack',
-  },
+  // {
+  //   title: 'Imagery',
+  //   image: 'imagery',
+  //   code: 'https://github.com/Prajapati-Shivam/dall-e-clone',
+  //   demo: 'https://imagery-dall-e.vercel.app/',
+  //   desc: 'Imagery is a dall-e clone to generate AI images built with mern stack',
+  // },
   {
     title: 'DailyNews',
     image: 'dailynews',
