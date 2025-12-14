@@ -61,11 +61,20 @@ const projects = [
 ];
 export default function Projects() {
   return (
-    <div id='projects' className='flex flex-col max-h-fit mt-12'>
-      <h3 className='text-3xl mt-5 md:text-4xl font-bold pb-2 border-b-2 border-gray-500 dark:text-gray-200'>
-        My Projects
-      </h3>
-      <div className='grid grid-cols-1 sm:grid-cols-2 gap-5 mt-10'>
+    <div id='projects' className='flex flex-col max-h-fit mt-12 relative'>
+      <div className='flex items-center gap-3 mb-2'>
+        <span className='text-4xl'>🗺️</span>
+        <h3 className='text-3xl mt-5 md:text-4xl font-bold dark:text-gray-200 pirate-heading' style={{color: '#023E8A'}}>
+          TREASURE VAULT
+        </h3>
+      </div>
+      <div className='h-1 w-32 treasure-gradient rounded-full mb-6'></div>
+
+      <p className='text-lg md:text-xl mb-8 dark:text-gray-300'>
+        <span className='font-bold' style={{color: '#D62828'}}>Discovered Treasures</span> - Each project is a hard-won bounty from my adventures
+      </p>
+
+      <div className='grid grid-cols-1 sm:grid-cols-2 gap-6 mt-10'>
         {projects.map((project, index) => {
           return (
             <Project
@@ -78,6 +87,12 @@ export default function Projects() {
             />
           );
         })}
+      </div>
+
+      <div className='flex justify-center mt-12 gap-4 text-4xl opacity-30'>
+        <span className='float-animation'>⚓</span>
+        <span className='wave-animation'>🌊</span>
+        <span className='float-animation' style={{animationDelay: '1s'}}>⛵</span>
       </div>
     </div>
   );
