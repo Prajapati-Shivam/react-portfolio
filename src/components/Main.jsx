@@ -17,7 +17,7 @@ export default function Main() {
             <span className='text-4xl wave-animation'>⚓</span>
             <span className='text-3xl'>🏴‍☠️</span>
           </div>
-          <h2 className='animate__animated animate__fadeInUp text-5xl font-extrabold pb-4 ocean-gradient bg-clip-text text-transparent md:text-6xl pirate-heading'>
+          <h2 className='animate__animated animate__fadeInUp text-5xl font-extrabold pb-4 ocean-gradient bg-clip-text text-white md:text-6xl pirate-heading'>
             Hi, I'm Shivam
             <span className='wave'>👋</span>
           </h2>
