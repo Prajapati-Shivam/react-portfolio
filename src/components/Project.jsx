@@ -46,7 +46,7 @@ export default function Project(props) {
           className='flex-1 flex items-center gap-x-2 justify-center adventure-gradient text-white px-4 py-3 rounded-lg font-bold hover:scale-105 transition-all duration-300 shadow-md hover:shadow-xl'
         >
           <Code size={18} />
-          <span>Code Map</span>
+          <span>Code</span>
         </a>
       </div>
 
